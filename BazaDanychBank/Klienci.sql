@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Klienci]
+(
+	IdKlienta INT IDENTITY(1,1) PRIMARY KEY,
+	Imie NVARCHAR(30) NOT NULL,
+	Nazwisko NVARCHAR(50) NOT NULL,
+	Miejscowosc NVARCHAR(40) NOT NULL,
+	Adres NVARCHAR(50) NOT NULL,
+)

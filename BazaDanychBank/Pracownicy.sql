@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Pracownicy]
+(
+	IdPracownika INT IDENTITY(1,1) PRIMARY KEY ,
+	Imie NVARCHAR(30) NOT NULL,
+	Nazwisko NVARCHAR(50) NOT NULL,
+	Miejscowosc NVARCHAR(40) NOT NULL,
+	Adres NVARCHAR(50) NOT NULL,
+	Stanowisko NVARCHAR(40) NOT NULL,
+)

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Konta]
+(
+	IdKonta INT NOT NULL PRIMARY KEY,
+	IdKlienta INT NOT NULL FOREIGN KEY REFERENCES Klienci(IdKlienta),
+	StanKonta DECIMAL
+)
